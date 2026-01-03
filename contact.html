@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Mariposa Physiotherapy &amp; Rehabilitation</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="description" content="Contact Mariposa Physiotherapy in Orillia. Located at 8 Westmount Dr S. Call 705-327-0008 or book online. Free parking available.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contact-hero {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+        .contact-info-section {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+        .exterior-image {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            margin-bottom: 2rem;
+        }
+        .exterior-image img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        @media (min-width: 768px) {
+            .contact-info-section {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .exterior-image img {
+                height: 300px;
+            }
+        }
+        @media (min-width: 1024px) {
+            .contact-hero {
+                grid-template-columns: 1fr 1fr;
+                gap: 3rem;
+            }
+            .exterior-image img {
+                height: 350px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-top">
+            <div class="container">
+                <span>705-327-0008</span>
+                <span>8 Westmount Dr S, Orillia, ON</span>
+            </div>
+        </div>
+        <div class="header-main">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Mariposa Physiotherapy &amp; Rehabilitation">
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="patient-info.html">Patient Info</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="https://mariposa.juvonno.com/plogin.php" class="btn btn-primary" target="_blank">Book Online</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We're here to help. Reach out to book an appointment or ask any questions.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+        <div class="container">
+            
+            <!-- Exterior Image -->
+            <div class="exterior-image">
+                <img src="images/exterior.jpg" alt="Mariposa Physiotherapy building exterior at 8 Westmount Dr S, Orillia">
+            </div>
+
+            <div class="contact-hero">
+                <!-- Contact Info Cards -->
+                <div>
+                    <div class="contact-info-section">
+                        <div class="contact-card">
+                            <h3>Location</h3>
+                            <div class="contact-item">
+                                <div>
+                                    <strong>Mariposa Physiotherapy &amp; Rehabilitation</strong><br>
+                                    8 Westmount Dr S, Unit 3<br>
+                                    Orillia, ON L3V 6C9
+                                </div>
+                            </div>
+                            <p style="font-size: 0.9375rem; color: var(--text-medium); margin-top: 1rem;">Free parking available. Located on city transit route.</p>
+                        </div>
+
+                        <div class="contact-card">
+                            <h3>Get In Touch</h3>
+                            <div class="contact-item">
+                                <span class="contact-label">Phone:</span>
+                                <span><a href="tel:7053270008">705-327-0008</a></span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Fax:</span>
+                                <span>705-327-0018</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Email:</span>
+                                <span><a href="mailto:info@mariposaphysio.ca">info@mariposaphysio.ca</a></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-card" style="margin-top: 1.5rem;">
+                        <h3>Clinic Hours</h3>
+                        <table class="hours-table">
+                            <tr>
+                                <td>Monday</td>
+                                <td>10:00 AM - 7:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday</td>
+                                <td>7:40 AM - 5:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday</td>
+                                <td>10:00 AM - 7:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday</td>
+                                <td>7:40 AM - 5:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>7:40 AM - 4:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>Closed</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Map -->
+                <div>
+                    <div class="contact-card" style="padding: 0; overflow: hidden;">
+                        <div class="map-container" style="height: 100%; min-height: 400px;">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2840.5!2d-79.4225!3d44.6025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d2aa94a46e40001%3A0x2405934bf1f1b609!2sMariposa%20Physiotherapy%20%26%20Rehabilitation!5e0!3m2!1sen!2sca!4v1234567890"
+                                width="100%" 
+                                height="100%" 
+                                style="border:0; min-height: 400px;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Book Online CTA -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book Your Appointment</h2>
+                <p>Use our secure online booking portal to schedule your appointment at your convenience, even outside of office hours.</p>
+            </div>
+            <div class="text-center">
+                <a href="https://mariposa.juvonno.com/plogin.php" class="btn btn-primary" target="_blank">Book Online Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review CTA -->
+    <section class="section">
+        <div class="container">
+            <div class="testimonial">
+                <p class="testimonial-quote">"I was suffering from severe lower back pain following a compression fracture. Tara completed a thorough assessment and began a professional, well-planned, progressive course of therapy. As a result, I have been able to resume my normal life and do things I thought I might never be able to do again, like picking up my grandkids."</p>
+                <p class="testimonial-author">Mike J.</p>
+                <p class="testimonial-source">Google Review</p>
+            </div>
+            <div class="text-center" style="margin-top: 2rem;">
+                <p style="color: var(--text-medium);">We value your feedback! If you've been a patient, please consider leaving us a review.</p>
+                <a href="https://search.google.com/local/writereview?placeid=ChIJAQDkRkqpKk0RCbbx8WmTBSQ" class="btn btn-secondary" target="_blank">Leave a Google Review</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/logo.png" alt="Mariposa Physiotherapy" class="footer-logo">
+                    <p>Providing excellence in physiotherapy services for Orillia and Simcoe County since 1998.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="patient-info.html">Patient Info</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#physiotherapy">Physiotherapy</a></li>
+                        <li><a href="services.html#pelvic-health">Pelvic Health</a></li>
+                        <li><a href="services.html#lymphedema">Lymphedema</a></li>
+                        <li><a href="services.html#massage">Massage Therapy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>8 Westmount Dr S, Unit 3<br>Orillia, ON L3V 6C9</p>
+                    <p>Phone: 705-327-0008<br>Fax: 705-327-0018</p>
+                    <p><a href="mailto:info@mariposaphysio.ca">info@mariposaphysio.ca</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mariposa Physiotherapy &amp; Rehabilitation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.main-nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

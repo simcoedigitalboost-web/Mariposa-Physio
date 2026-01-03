@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Information | Mariposa Physiotherapy &amp; Rehabilitation</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="description" content="Patient information for Mariposa Physiotherapy including fees, direct billing, cancellation policy, and what to expect at your first appointment.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .faq-item {
+            background: var(--white);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--gray-border);
+        }
+        .faq-item h4 {
+            color: var(--blue-primary);
+            margin-bottom: 0.75rem;
+        }
+        .faq-item p {
+            margin-bottom: 0;
+            font-size: 0.9375rem;
+        }
+        .info-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-md);
+        }
+        .info-card h3 {
+            color: var(--blue-primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--gray-border);
+        }
+        .info-card p, .info-card li {
+            font-size: 0.9375rem;
+        }
+        .info-card ul {
+            margin: 1rem 0;
+            padding-left: 1.25rem;
+        }
+        .info-card li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-top">
+            <div class="container">
+                <span>705-327-0008</span>
+                <span>8 Westmount Dr S, Orillia, ON</span>
+            </div>
+        </div>
+        <div class="header-main">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Mariposa Physiotherapy &amp; Rehabilitation">
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="patient-info.html" class="active">Patient Info</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="https://mariposa.juvonno.com/plogin.php" class="btn btn-primary" target="_blank">Book Online</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Patient Information</h1>
+            <p>Everything you need to know about your visit to Mariposa Physiotherapy.</p>
+        </div>
+    </section>
+
+    <!-- Patient Info Content -->
+    <section class="section">
+        <div class="container">
+            
+            <div class="info-card" id="first-visit">
+                <h3>Your First Visit</h3>
+                <p>At your first appointment, your therapist will complete a thorough assessment to determine the factors contributing to your problem. This includes reviewing your medical history, discussing your symptoms, and performing physical tests.</p>
+                <p>Based on your assessment findings, your therapist will work with you to establish goals aligned with your desired outcomes. Your personalized treatment plan will include education, manual therapy, exercise prescription, and potentially modalities to assist in your recovery.</p>
+                <p><strong>Please bring:</strong></p>
+                <ul>
+                    <li>Your health insurance card (OHIP)</li>
+                    <li>Extended health insurance information</li>
+                    <li>Any relevant medical reports or imaging results</li>
+                    <li>Comfortable clothing appropriate for movement</li>
+                    <li>A list of current medications</li>
+                </ul>
+            </div>
+
+            <div class="info-card" id="fees">
+                <h3>Fee Guidelines</h3>
+                <p>Our fees are in accordance with the Ontario Physiotherapy Association fee guidelines. Payment is expected at the time of service.</p>
+                <p>We accept cash, debit, Visa, and Mastercard. Most extended health insurance plans cover physiotherapy and massage therapy services. Please check with your insurance provider regarding your coverage details.</p>
+            </div>
+
+            <div class="info-card" id="direct-billing">
+                <h3>Direct Billing</h3>
+                <p>We offer direct billing to most major insurance providers for your convenience. This means we can submit your claim directly to your insurance company, and you only pay the difference (if any) at the time of your appointment.</p>
+                <p>Please provide your insurance information at your first visit so we can verify your coverage and set up direct billing for you.</p>
+                <p><strong>Insurance plans we commonly bill directly:</strong></p>
+                <ul>
+                    <li>Manulife</li>
+                    <li>Sun Life</li>
+                    <li>Great-West Life</li>
+                    <li>Blue Cross</li>
+                    <li>Green Shield</li>
+                    <li>Industrial Alliance</li>
+                    <li>And many more</li>
+                </ul>
+            </div>
+
+            <div class="info-card" id="cancellation">
+                <h3>Cancellation Policy</h3>
+                <p>We understand that unexpected circumstances arise. However, missed appointments affect other patients who could have used that time slot.</p>
+                <p>We require <strong>24 hours notice</strong> for any cancellations or rescheduling. Appointments cancelled with less than 24 hours notice or no-shows may be subject to a cancellation fee.</p>
+                <p>To cancel or reschedule, please call us at 705-327-0008 or use our online booking portal.</p>
+            </div>
+
+            <div class="info-card" id="privacy">
+                <h3>Privacy Policy</h3>
+                <p>Mariposa Physiotherapy is committed to protecting your personal health information. We collect, use, and disclose your information only as permitted by the Personal Health Information Protection Act (PHIPA).</p>
+                <p>Your health information is used to provide you with quality care, communicate with other healthcare providers involved in your care (with your consent), and process insurance claims.</p>
+                <p>You have the right to access your health records and request corrections. For more information about our privacy practices, please speak with our staff.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="faq-item">
+                <h4>Do I need a referral to see a physiotherapist?</h4>
+                <p>No, you do not need a doctor's referral to see a physiotherapist in Ontario. However, some insurance plans may require a referral for coverage. Please check with your insurance provider.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Is physiotherapy painful?</h4>
+                <p>A common misconception is that physiotherapy is painful. While pain may be a part of many conditions we treat, our role is to alleviate it, not cause it. Your therapist will work within your comfort level and communicate with you throughout treatment.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How long are appointments?</h4>
+                <p>Initial assessments are typically 45-60 minutes to allow for a thorough evaluation. Follow-up treatment sessions are usually 30-45 minutes depending on your treatment plan.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How many treatments will I need?</h4>
+                <p>The number of treatments varies depending on your condition, its severity, and your individual response to treatment. Your therapist will discuss a realistic treatment timeline with you at your initial assessment.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What should I wear to my appointment?</h4>
+                <p>Please wear comfortable, loose-fitting clothing that allows access to the area being treated. For lower body issues, shorts are helpful. For upper body issues, a tank top or t-shirt works well.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Is there parking available?</h4>
+                <p>Yes, we offer free parking directly in front of our clinic. We are also located on the city transit route for your convenience.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Have More Questions?</h2>
+            <p>We're happy to answer any questions you have. Give us a call or book online.</p>
+            <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/logo.png" alt="Mariposa Physiotherapy" class="footer-logo">
+                    <p>Providing excellence in physiotherapy services for Orillia and Simcoe County since 1998.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="patient-info.html">Patient Info</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#physiotherapy">Physiotherapy</a></li>
+                        <li><a href="services.html#pelvic-health">Pelvic Health</a></li>
+                        <li><a href="services.html#lymphedema">Lymphedema</a></li>
+                        <li><a href="services.html#massage">Massage Therapy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>8 Westmount Dr S, Unit 3<br>Orillia, ON L3V 6C9</p>
+                    <p>Phone: 705-327-0008<br>Fax: 705-327-0018</p>
+                    <p><a href="mailto:info@mariposaphysio.ca">info@mariposaphysio.ca</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mariposa Physiotherapy &amp; Rehabilitation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.main-nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

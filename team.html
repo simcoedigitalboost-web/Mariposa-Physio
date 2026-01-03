@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team | Mariposa Physiotherapy &amp; Rehabilitation</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="description" content="Meet the experienced physiotherapy team at Mariposa. Led by Kelly Spears, FCAMPT with 25+ years experience, our team provides expert care in Orillia.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .team-full {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+        }
+        .team-member {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+        }
+        .team-member-photo {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            object-position: top;
+        }
+        .team-member-content {
+            padding: 2rem;
+        }
+        .team-member h2 {
+            color: var(--text-dark);
+            margin-bottom: 0.25rem;
+            font-size: 1.5rem;
+        }
+        .team-member .role {
+            color: var(--blue-primary);
+            font-weight: 600;
+            font-size: 1.0625rem;
+            margin-bottom: 0.5rem;
+        }
+        .team-member .credentials {
+            font-size: 0.875rem;
+            color: var(--text-light);
+            font-style: italic;
+            margin-bottom: 1.25rem;
+            padding-bottom: 1.25rem;
+            border-bottom: 1px solid var(--gray-border);
+        }
+        .team-member p {
+            font-size: 0.9375rem;
+            margin-bottom: 0.875rem;
+        }
+        .team-member p:last-child {
+            margin-bottom: 0;
+        }
+        @media (min-width: 768px) {
+            .team-member {
+                display: grid;
+                grid-template-columns: 300px 1fr;
+            }
+            .team-member-photo {
+                height: 100%;
+                min-height: 400px;
+            }
+        }
+        @media (min-width: 1024px) {
+            .team-member {
+                grid-template-columns: 350px 1fr;
+            }
+            .team-member-content {
+                padding: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-top">
+            <div class="container">
+                <span>705-327-0008</span>
+                <span>8 Westmount Dr S, Orillia, ON</span>
+            </div>
+        </div>
+        <div class="header-main">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Mariposa Physiotherapy &amp; Rehabilitation">
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="team.html" class="active">Our Team</a></li>
+                    <li><a href="patient-info.html">Patient Info</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="https://mariposa.juvonno.com/plogin.php" class="btn btn-primary" target="_blank">Book Online</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Team</h1>
+            <p>Dedicated professionals committed to helping you achieve your health and rehabilitation goals.</p>
+        </div>
+    </section>
+
+    <!-- Team Members -->
+    <section class="section">
+        <div class="container">
+            <div class="team-full">
+                
+                <!-- Kelly Spears -->
+                <div class="team-member">
+                    <img src="images/kelly-spears.jpg" alt="Kelly Spears, Registered Physiotherapist and Owner" class="team-member-photo">
+                    <div class="team-member-content">
+                        <h2>Kelly Spears</h2>
+                        <p class="role">Owner &amp; Registered Physiotherapist</p>
+                        <p class="credentials">BPhEd, BHScPT, MClScPT (manip.), CAFCI, CDT, MCPA, FCAMPT</p>
+                        
+                        <p>Kelly has over 25 years of clinical experience in private practice physiotherapy. She graduated with Honours from Brock University in 1998 with her Physical Education Degree, then attended McMaster University and graduated with Distinction in 2000 with her Bachelor of Health Science in Physiotherapy.</p>
+                        
+                        <p>After seven years of practice and numerous continuing education courses including the McKenzie method and certification in Acupuncture, she attended the University of Western Ontario for her Master in Clinical Science Physiotherapy Degree. She then passed the Orthopaedic Advanced exams, becoming a Fellow of the Canadian Academy of Manual and Manipulative Physiotherapy (FCAMPT).</p>
+                        
+                        <p>Kelly furthered her education and became certified to treat Lymphedema using Combined Decongestive Therapy (CDT). She is a registered Authorizer for the Government Assistive Devices Program (ADP) for lymphedema garments. She is also trained in Pelvic Health Physiotherapy for the treatment of pelvic pain syndromes and urinary incontinence.</p>
+                        
+                        <p>Her treatment philosophy involves using manual therapy techniques to attain proper joint mechanics, combined with soft tissue techniques, exercise, and posture correction to achieve muscular balance and preventative maintenance.</p>
+                    </div>
+                </div>
+
+                <!-- Wendi Kohler -->
+                <div class="team-member">
+                    <img src="images/wendi-kohler.jpg" alt="Wendi Kohler, Registered Physiotherapist" class="team-member-photo">
+                    <div class="team-member-content">
+                        <h2>Wendi Kohler</h2>
+                        <p class="role">Registered Physiotherapist</p>
+                        <p class="credentials">HBAKin, MPT, DPT</p>
+                        
+                        <p>After graduating with an Honours Bachelor degree in Kinesiology and working as a Kinesiologist in Toronto, Wendi pursued Physiotherapy as a career. She graduated Summa Cum Laude from Saint Louis University in 2006 with a Master's of Physical Therapy degree and continued to complete her Doctor of Physical Therapy degree in 2008.</p>
+                        
+                        <p>Wendi practiced in both inpatient and private outpatient settings in Missouri and North Dakota before returning to Canada. She began her Canadian career at Royal Victoria Regional Health Centre in Barrie, working in a variety of settings over her 12 years with RVH including outpatient, post-surgical, rehabilitation, cardiac, and critical cardiac care.</p>
+                        
+                        <p>She has mentored many physiotherapy and physiotherapy assistant students and has been an assessor for the Physiotherapy Competency Exam. Wendi focuses primarily on orthopaedic patients, is BoneFit Certified, and is a facilitator for the GLA:D (Good Life with Arthritis) program.</p>
+                        
+                        <p>Wendi enjoys supporting patients in achieving optimal health, which requires addressing both the body and mind. She takes a holistic approach to her own life and practices yoga and breathwork regularly as part of her healthy lifestyle.</p>
+                    </div>
+                </div>
+
+                <!-- Marie Picard -->
+                <div class="team-member">
+                    <img src="images/marie-picard.jpg" alt="Marie Picard, Registered Massage Therapist" class="team-member-photo">
+                    <div class="team-member-content">
+                        <h2>Marie Picard</h2>
+                        <p class="role">Registered Massage Therapist</p>
+                        <p class="credentials">RMT</p>
+                        
+                        <p>Marie graduated from the Canadian College of Massage and Hydrotherapy in 2016 and started her practice that same year. With a special interest in proper functional movement and posture, Marie helps clients manage both chronic and acute injuries.</p>
+                        
+                        <p>Encouraging the involvement of her clients in their own healing through education and support is the norm. Be prepared for some homework to accelerate your recovery process.</p>
+                        
+                        <p>Marie has acquired additional certifications to enhance her knowledge and skills, including Cupping, Dynamic Taping, and Advanced Neurological Techniques. She has also completed a certification program regarding Autism Spectrum Disorder, offering interactive custom treatments for neurological symptom management.</p>
+                        
+                        <p>When away from the clinic, Marie is an autism advocate, meeting with researchers and members of the government regularly. In her free time, she enjoys time with her family, trekking through the forest, foraging, gardening, and taking in the sounds of the great outdoors.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Partners -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education Partners</h2>
+                <p>Our physiotherapists are mentors and preceptors for physiotherapy students from Queen's University and the University of Toronto.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Meet Our Team?</h2>
+            <p>Book your appointment online and start your journey to better health.</p>
+            <a href="https://mariposa.juvonno.com/plogin.php" class="btn btn-primary" target="_blank">Book Online Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/logo.png" alt="Mariposa Physiotherapy" class="footer-logo">
+                    <p>Providing excellence in physiotherapy services for Orillia and Simcoe County since 1998.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="patient-info.html">Patient Info</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#physiotherapy">Physiotherapy</a></li>
+                        <li><a href="services.html#pelvic-health">Pelvic Health</a></li>
+                        <li><a href="services.html#lymphedema">Lymphedema</a></li>
+                        <li><a href="services.html#massage">Massage Therapy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>8 Westmount Dr S, Unit 3<br>Orillia, ON L3V 6C9</p>
+                    <p>Phone: 705-327-0008<br>Fax: 705-327-0018</p>
+                    <p><a href="mailto:info@mariposaphysio.ca">info@mariposaphysio.ca</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mariposa Physiotherapy &amp; Rehabilitation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.main-nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
